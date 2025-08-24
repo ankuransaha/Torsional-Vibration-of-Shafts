@@ -1,5 +1,5 @@
 ## Frequency of Two Rotor
-def tworotor(L,Ia,Ib,ds,G):
+def tworotor_freq(L,Ia,Ib,ds,G):
   pi=math.pi
   J=(pi*ds**4)/32
   la=(Ib/(Ia+Ib))*L
