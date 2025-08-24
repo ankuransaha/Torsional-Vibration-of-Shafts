@@ -1,8 +1,7 @@
+# tworotor.py
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-
-## Frequency of Two Rotor
 def rotor_freq(L,Ia,Ib,ds,G):
   pi=math.pi
   J=(pi*ds**4)/32
