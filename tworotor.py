@@ -1,4 +1,5 @@
 ## Frequency of Two Rotor
+import numpy as np
 def tworotor_freq(L,Ia,Ib,ds,G):
   pi=math.pi
   J=(pi*ds**4)/32
