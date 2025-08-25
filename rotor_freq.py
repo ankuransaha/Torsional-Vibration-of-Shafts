@@ -1,6 +1,6 @@
-# tworotor.py
+# two_rotor.py
 import numpy as np
-def tworotor(L,Ia,Ib,ds,G):
+def two_rotor(L,Ia,Ib,ds,G):
   pi=math.pi
   J=(pi*ds**4)/32
   la=(Ib/(Ia+Ib))*L
