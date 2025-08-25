@@ -1,7 +1,7 @@
 # two_rotor.py
 import math
 def two_rotor(L,Ia,Ib,ds,G):
-  pi=3.14159265359
+  pi=math.pi
   J=(pi*ds**4)/32
   la=(Ib/(Ia+Ib))*L
   lb=(Ia/(Ia+Ib))*L
