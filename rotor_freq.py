@@ -1,4 +1,5 @@
 # two_rotor.py
+import math
 def two_rotor(L,Ia,Ib,ds,G):
   pi=3.14159265359
   J=(pi*ds**4)/32
