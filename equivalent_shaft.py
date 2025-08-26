@@ -11,4 +11,4 @@ for i in range(n):
 for i in range(n):
   L_eq=L_eq+shaft_length[i]*(d/shaft_dia[i])**4
 
-print(f"Equivalent length of the shaft is : {L_eq:0.3f}")
+return(L_eq)
