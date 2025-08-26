@@ -1,5 +1,5 @@
 #equivalent_shaft.py
-def eqshaft_length(eqd,n)
+def eqshaft_length(eqd,n):
 import math
 L_eq=0
 shaft_dia=n*[0]
